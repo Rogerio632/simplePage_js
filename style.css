@@ -9,33 +9,33 @@ body:not(.modal){
 a, a:hover{
     text-decoration: none;
     color: black;
+    
 }
 .logo{
 
     width: 150px;  
-    height: 50px;
+    height: 60px;
     padding: 5px;
     transform: translate(38%, 0%)
 }
 
 #container{
 
-    
     background: rgb(255, 0, 0);
     width: 400px;
-    border: 2px solid black;
+    border: 2px solid #dc3545;
 }
 .content{
 
    
     background: white;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 0, 0);
     height: 210px;
 
 }
 .secondary{
 
-background: white;
+background: black;
 padding-bottom: 250px;
 
 
@@ -52,16 +52,7 @@ padding-bottom: 250px;
     height: 40px;
 
 }
-.card-body{
 
-    background: white;
-    border: 1px solid black;
-    color: black;
-    /* border-radius: 50px; */
-    text-align: center;
-    
-
-}
 
 
 
