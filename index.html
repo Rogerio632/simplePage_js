@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>index</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <section id="container">
+
+        <header class="head">
+            <p class="logo"><img class="logo"
+                    src="https://i1.wp.com/free-keyz.com/wp-content/uploads/2018/11/Red-Dead-Redemption-2-Free.png?fit=1551%2C614&ssl=1"
+                    alt="Logo rdr2"></p>
+        </header>
+
+        <article class="content">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 slide"
+                            src="https://www.xtrafondos.com/wallpapers/red-dead-redemption-2-3377.jpg"
+                            alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 slide"
+                            src="https://cdn.images.express.co.uk/img/dynamic/143/590x/Red-Dead-Redemption-Red-Dead-price-Xbox-One-backwards-compatible-688213.jpg"
+                            alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 slide"
+                            src="https://cdn.wccftech.com/wp-content/uploads/2019/08/WCCFreddeadredemption264.jpg"
+                            alt="Third slide">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+
+        </article>
+        <article class="secondary">
+
+            <div class="card w-100">
+                <div class="card-body mt-2">
+                    <a href="" data-toggle="modal" data-target="#myModal">
+                        <p class="card-text w-100">Cadastrar personagem</p>
+                    </a>
+                </div>
+            </div>
+
+        </article>
+
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Cadastro de personagem</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" name="nome">
+                    <br>
+                    <label for="descricao">Breve descrição</label>
+                    <input type="text" class="form-control" name="nome">
+
+                    <br>
+                    <label for="img">Foto</label>
+                    <input type="file" class="" name="descricao">
+
+                    </div>
+                    <div class="modal-footer">
+                        
+                        <button type="button" style="align-items: flex-start" class="btn btn-success">Cadastrar</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
